@@ -8,6 +8,7 @@ setup(
     py_modules=['play_game'],
     install_requires=[
         'Click',
+        'Sphinx',
     ],
     entry_points='''
         [console_scripts]
